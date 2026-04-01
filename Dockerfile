@@ -4,6 +4,6 @@ COPY *.deb /app/
 
 RUN apt update && \
     apt install -y dpkg && \
-    dpkg -i /app/*.deb || apt install -f -y
+    dpkg -i /app/*.deb || apt-get install -f -y
 
-CMD ["matrix_avg"]
+CMD ["/usr/local/bin/matrix_avg"]
