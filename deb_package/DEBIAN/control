@@ -1,0 +1,8 @@
+Package: matrix-avg
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: arm64
+Depends: g++
+Maintainer: Student <student@example.com>
+Description: Среднее диагоналей матриц
